@@ -1,4 +1,4 @@
-hohoholiday
+*hohoholiday*
 Product landing page - Free Code Camp test
 
 Welcome to my Hohoholiday landing page. This page was developed for one of Free Code Camp Web Development tests, the Product Landing page test.
