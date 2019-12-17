@@ -1,4 +1,4 @@
-<strong>hohoholiday</strong>
+<strong>Hohoholiday</strong>
   
 Product landing page - Free Code Camp test
 
