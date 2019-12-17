@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/style_02.css">
+  <link href="https://fonts.googleapis.com/css?family=Chonburi|Fira+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <title>Ho-Ho-Holiday</title>
+</head>
+
+<body>
+  <header id="header">
+    <img id="header-img" src="images/house-24px.svg" alt="logo">
+    <nav id="nav-bar" class="responsive">
+      <ul class="menu_area">
+        <li>
+          <a href="#home" class="nav-link">Home</a>
+        </li>
+        <li>
+          <a href="#travel" class="nav-link">Travel</a>
+        </li>
+        <li>
+          <a href="#study" class="nav-link">Study</a>
+        </li>
+        <li>
+          <a href="#work" class="nav-link">Work</a>
+        </li>
+        <li>
+          <a href="#about" class="nav-link">About us</a>
+        </li>
+      </ul>
+    </nav>
+
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+    </a>
+
+  </header>
+
+    <section id="home">
+      <iframe id="video" src="https://www.youtube.com/embed/B0uYcxvPf1A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <section id="form-container">
+        <h2>Looking for a new experience?</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input
+          name="name"
+          id="name"
+          type="name"
+          placeholder="Enter your name here"
+          required
+          />
+          <input
+          name="email"
+          id="email"
+          type="email"
+          placeholder="Enter your email address"
+          required
+          />
+          <!-- <textarea id="comments" class="textarea"  name="comment" placeholder="Leave any comments here, please" maxlength="60"></textarea> -->
+          <input id="submit" type="submit" value="Let's go!" class="btn" />
+        </form>
+      </section>
+    </section>
+
+    <main id="main-container">
+      <section id="travel">
+        <section class="icon_wrapper">
+          <i class="material-icons">
+            flight_takeoff
+          </i>
+          <h3>Planning a trip for your holidays?</h3>
+        </section>
+        <p>Offering quality and affordability, homestays are a great value accommodation option for short or long term stays.</p>
+      </section>
+      <section id="study">
+        <section class="icon_wrapper">
+          <i class="material-icons">
+            menu_book
+          </i>
+          <h3>We value your education</h3>
+        </section>
+        <p>Homestays provide a truly affordable and safe way to stay, when learning a new language, studying abroad on Erasmus or doing an internship. Our secure online booking system, complete with reviews gives you peace of mind that your accommodation is now sorted.</p>
+      </section>
+      <section id="work">
+        <section class="icon_wrapper">
+          <i class="material-icons">
+            card_travel
+          </i>
+          <h3>Work hard, play harder</h3>
+        </section>
+        <p>Every home has a host present and they do more than just hand over keys. They'll help you settle into life in a new place.</p>
+      </section>
+    </main>
+
+    <img src="images/cozy_room.jpg" alt="cozy room" id="cozy_room" class="responsive">
+    <a style="background-color:#4e637c;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@tli427?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Tony Lee"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Tony Lee</span></a>
+
+    <footer id="about">
+      <h3>About us</h3>
+      <p>We're big fans of home sharing and dedicated to offering quality rooms at wallet-friendly prices, and to giving hosts an opportunity to rent out their spare rooms on our global marketplace.</p>
+    </footer>
+
+</body>
+</html>
